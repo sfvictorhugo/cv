@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>contactame</title>
+</head>
+
+<body>
+  <h1>Contactame</h1>
+  <h3>Puedes contactarme por los siguientes medios</h3>
+  <hr size="6" noshade>
+
+  <a href="https://fb.com"> En Facebook</a>
+  <p>My fictional address</p>
+  <p>2223432343 </p>
+  <p>myemail@gmail.com</p>
+
+  <hr>
+
+  <form action="mailto:victorhugo@qodlabs.com" method="post" enctype="text/plain"> <!-- aqui estamos definiciendo que este form la accióin deseada es que nos manden un correo, y después agregamos "ENCTYPE"para decir que toda la info recabada es texto plano" -->
+    <label>Your Name:</label>
+    <input type="text" name="" value="" autocomplete="name"> <br>
+    <label>Email:</label>
+    <input type="email" name="" value="" autocomplete="email"> <br /><!-- te puedes apoyar de "auto complete" para hacer que el navegador sugiera la info -->
+    <label>Your Message:</label> <br>
+    <textarea name="name" rows="10" cols="30"></textarea>
+
+    <input type="submit" name=""> <!-- para poner el "surmit solo es necesario cambiar el type, al borrarlo
+    nos da la lista de todos los types posibles. ES NECESARIO borrar (value:"") -->
+  </form>
+
+  <a href="index.html">Regresar</a>
+</body>
+
+</html>
